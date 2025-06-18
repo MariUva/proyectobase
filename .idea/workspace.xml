@@ -4,7 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0ace0fb-7f44-45a9-ab3d-ddbbf73f6e18" name="Changes" comment="" />
+    <list default="true" id="a0ace0fb-7f44-45a9-ab3d-ddbbf73f6e18" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/back/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/BackendApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/application/usecase/UserUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/application/usecase/auth/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/application/usecase/auth/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/domain/model/AuthUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/domain/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/domain/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/domain/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/dto/auth/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/persistence/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/persistence/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/back/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/back/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/back/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/back/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/BackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/application/usecase/UserUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/application/usecase/auth/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/application/usecase/auth/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/domain/model/AuthUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/domain/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/domain/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/domain/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/dto/auth/AuthRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/dto/auth/AuthRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/dto/auth/AuthResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/dto/user/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/dto/user/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/persistence/entity/RoleData.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/persistence/entity/RoleData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/persistence/entity/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/persistence/entity/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/persistence/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/persistence/repository/JpaUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/persistence/repository/JpaUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/persistence/repository/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/security/jwt/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/security/jwt/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyectoback/backend/infrastructure/security/jwt/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/proyectoback/backend/infrastructure/security/jwt/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,27 +67,97 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2yeoSIrcHWioDrMLHJ4nu2NXuKO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/maria/Documents/Proyectoback/back",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "cb9bde73a98c09188a730f0190c6835a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maria\Documents\Proyectoback\src\main\resources" />
+      <recent name="C:\Users\maria\Documents\Proyectoback\src\main\java\com\proyectoback\backend\infrastructure\controller\config" />
+      <recent name="C:\Users\maria\Documents\Coquito1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.proyectoback.backend.infrastructure.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.proyectoback.backend.infrastructure.persistence.entity" />
+      <recent name="com.proyectoback.backend.infrastructure.persistence.repository" />
+      <recent name="com.proyectoback.backend.config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Proyectoback.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.proyectoback.backend.BackendApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.proyectoback.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,8 +166,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750204398153</updated>
-      <workItem from="1750204399290" duration="2000" />
+      <workItem from="1750204399290" duration="1251000" />
+      <workItem from="1750213891227" duration="494000" />
+      <workItem from="1750214429345" duration="2693000" />
+      <workItem from="1750217143334" duration="4357000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

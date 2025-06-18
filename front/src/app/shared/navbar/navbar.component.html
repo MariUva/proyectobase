@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <div class="navbar-left">
+  <a href="#" (click)="goToHomeOrDashboard($event)" class="logo">Gestión de proyectos</a>
+  </div>
+
+  <div class="navbar-right">
+    <ng-container *ngIf="!isLoggedIn">
+      <a routerLink="/">Iniciar sesión</a>
+      <a routerLink="/register">Registrarse</a>
+    </ng-container>
+
+    <ng-container *ngIf="isLoggedIn">
+
+        <a routerLink="/projects">Administrar proyectos</a>
+
+      <a (click)="logout()" style="cursor: pointer;">Cerrar sesión</a>
+    </ng-container>
+  </div>
+</nav>

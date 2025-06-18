@@ -1,7 +1,7 @@
 package com.proyectoback.backend.infrastructure.controller;
 
 
-import com.proyectoback.backend.application.usecase.UserUseCase;
+import com.proyectoback.backend.application.usecase.user.UserUseCase;
 import com.proyectoback.backend.domain.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

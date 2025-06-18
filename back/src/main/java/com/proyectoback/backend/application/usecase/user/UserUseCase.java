@@ -1,4 +1,4 @@
-package com.proyectoback.backend.application.usecase;
+package com.proyectoback.backend.application.usecase.user;
 
 import com.proyectoback.backend.domain.model.User;
 import com.proyectoback.backend.domain.repository.UserRepository;
